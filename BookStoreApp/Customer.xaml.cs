@@ -93,10 +93,6 @@ namespace BookStoreApp
                 arrayList.Add(data.ToString());
                 count++;
             }
-            arrayList[0] = "";
-            arrayList[1] = "";
-            arrayList[2] = "";
-            arrayList[3] = "";
 
             txtid.Text = txtid.Text;
             txtName.Text = arrayList[1].ToString();
