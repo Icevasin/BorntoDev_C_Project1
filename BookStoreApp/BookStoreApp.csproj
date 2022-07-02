@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="kisspng-computer-icons-customer-service-icon-design-user-5b217aa68cac70.0243154615289207425762.jpg" />
+    <None Remove="kisspng-computer-icons-customer-service-icon-design-user-5b217aa6b946e2.2623393615289207427589.png" />
+    <None Remove="lh_cn_01.jpg" />
+    <None Remove="—Pngtree—open book icon in trendy_4850652.png" />
+    <None Remove="—Pngtree—red listing order now tags_5547683.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="kisspng-computer-icons-customer-service-icon-design-user-5b217aa68cac70.0243154615289207425762.jpg" />
+    <Resource Include="kisspng-computer-icons-customer-service-icon-design-user-5b217aa6b946e2.2623393615289207427589.png" />
+    <Resource Include="lh_cn_01.jpg" />
+    <Resource Include="—Pngtree—open book icon in trendy_4850652.png" />
+    <Resource Include="—Pngtree—red listing order now tags_5547683.png" />
+  </ItemGroup>
+
+</Project>

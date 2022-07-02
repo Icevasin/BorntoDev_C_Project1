@@ -1,0 +1,27 @@
+﻿<Window x:Class="BookStoreApp.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreApp"
+        mc:Ignorable="d"
+        Title="Customer" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnadd_customer" Content="เพิ่มลูกค้า" HorizontalAlignment="Left" Height="54" Margin="423,36,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btnadd_customer_Click"/>
+        <Button x:Name="btnsearch_customer" Content="ค้นหาลูกค้า" HorizontalAlignment="Left" Height="54" Margin="580,36,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btnsearch_customer_Click"/>
+        <Button x:Name="btnedit_customer" Content="แก้ไขลูกค้า" HorizontalAlignment="Left" Height="54" Margin="423,139,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btnedit_customer_Click"/>
+        <Button x:Name="btndelete_customer" Content="ลบลูกค้า" HorizontalAlignment="Left" Height="54" Margin="579,139,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btndelete_customer_Click"/>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="30" Margin="128,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" BorderBrush="Black" FontSize="16"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="30" Margin="128,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" BorderBrush="Black" FontSize="16"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="100" Margin="128,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" BorderBrush="Black" FontSize="16"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="30" Margin="128,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" BorderBrush="Black" FontSize="16"/>
+        <Label Content="รหัสลูกค้า" HorizontalAlignment="Left" Height="30" Margin="44,36,0,0" VerticalAlignment="Top" Width="102" FontSize="16"/>
+        <Label Content="ชื่อลูกค้า" HorizontalAlignment="Left" Height="30" Margin="44,89,0,0" VerticalAlignment="Top" Width="102" FontSize="16"/>
+        <Label Content="ที่อยู่" HorizontalAlignment="Left" Height="30" Margin="44,143,0,0" VerticalAlignment="Top" Width="102" FontSize="16"/>
+        <Label Content="อีเมล" HorizontalAlignment="Left" Height="30" Margin="44,264,0,0" VerticalAlignment="Top" Width="102" FontSize="16"/>
+        <Button x:Name="btnmain" Content="หน้าหลัก" HorizontalAlignment="Left" Height="54" Margin="25,341,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btnmain_Click"/>
+        <Button x:Name="btnshow" Content="แสดงรายชื่อลูกค้า" HorizontalAlignment="Left" Height="51" Margin="502,317,0,0" VerticalAlignment="Top" Width="159" FontSize="22" Click="btnshow_Click"/>
+        <Button x:Name="btneditsave_customer" Content="บันทึกการแก้ไข" HorizontalAlignment="Left" Height="54" Margin="423,236,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btneditsave_customer_Click"/>
+        <Button x:Name="btnreset_customer" Content="รีเช็ตแบบฟอร์ม" HorizontalAlignment="Left" Height="54" Margin="580,236,0,0" VerticalAlignment="Top" Width="140" FontSize="22" Click="btnreset_customer_Click"/>
+    </Grid>
+</Window>

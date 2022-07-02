@@ -1,0 +1,21 @@
+﻿<Window x:Class="BookStoreApp.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreApp"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="800">
+    <Grid>
+
+        <Button x:Name="btnOrder" Content="สั่งซื้อหนังสือ" HorizontalAlignment="Left" Height="94" Margin="561,0,0,0" VerticalAlignment="Center" Width="170" FontSize="24" Click="btnOrder_Click"/>
+        <Button x:Name="btnBook" Content="จัดการข้อมูล&#xA;หนังสือ" HorizontalAlignment="Left" Height="94" Margin="309,0,0,0" VerticalAlignment="Center" Width="170" FontSize="24" Click="btnBook_Click"/>
+        <Button x:Name="btnCustomer" Content="จัดการข้อมูล&#xA;ลูกค้า" HorizontalAlignment="Left" Height="94" Margin="50,0,0,0" VerticalAlignment="Center" Width="170" FontSize="24" Click="btnCustomer_Click"/>
+        <Button x:Name="btnlogout" Content="Logout" HorizontalAlignment="Left" Height="37" Margin="682,10,0,0" VerticalAlignment="Top" Width="97" Background="#FFFB4F4F" BorderBrush="{x:Null}" Foreground="White" FontSize="20" FontWeight="Bold" Click="btnlogout_Click"/>
+        <Button x:Name="btnhistorysell" Content="ประวัติการซื้อหนังสือ" HorizontalAlignment="Left" Height="73" Margin="295,305,0,0" VerticalAlignment="Top" Width="198" FontSize="24" Click="btnhistorysell_Click"/>
+        <Image HorizontalAlignment="Left" Height="109" Margin="87,45,0,0" VerticalAlignment="Top" Width="105" Source="/kisspng-computer-icons-customer-service-icon-design-user-5b217aa6b946e2.2623393615289207427589.png"/>
+        <Image HorizontalAlignment="Left" Height="126" Margin="328,32,0,0" VerticalAlignment="Top" Width="132" Source="/—Pngtree—open book icon in trendy_4850652.png"/>
+        <Image HorizontalAlignment="Left" Height="162" Margin="565,32,0,0" VerticalAlignment="Top" Width="203" Source="/—Pngtree—red listing order now tags_5547683.png"/>
+
+    </Grid>
+</Window>
